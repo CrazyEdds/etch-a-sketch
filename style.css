@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.gridItem {
+    background-color: lightgreen;
+    border: 2px solid black;
+    height: 5rem;
+}
+
+#gridContainer {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.hoverColor {
+    background-color: green;
+}
